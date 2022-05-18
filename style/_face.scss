@@ -1,0 +1,31 @@
+.face {
+    margin-top: 146px;
+    max-width: $max-width;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+}
+
+.face-title {
+    font-weight: 700;
+    font-size: 44px;
+    color: $black;
+    margin-bottom: 30px;
+}
+
+.face-title span {
+    color: $green;
+}
+
+.face-desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.2;
+    color: $light-gray;
+    max-width: 731px;
+}

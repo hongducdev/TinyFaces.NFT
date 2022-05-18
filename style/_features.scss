@@ -1,0 +1,116 @@
+.features {
+    margin-top: 146px;
+    max-width: $max-width;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features-header {
+    text-align: center;
+}
+
+.features-header-title {
+    font-weight: 700;
+    font-size: 44px;
+    color: $black;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.2;
+}
+
+.features-header-title span {
+    color: $light-green;
+}
+
+.features-header-desc {
+    margin-top: 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: $light-gray;
+    max-width: 908px;
+    line-height: 1.2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.features-container {
+    max-width: 1056px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-card {
+    max-width: 322px;
+    max-height: 384px;
+    padding: 28px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-card-img{
+    width: 100px;
+    height: 100px;
+    background-color: #DAF6E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 23px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features-card-title {
+    font-weight: 700;
+    font-size: 24px;
+    max-width: 125px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    color: $text-color;
+}
+
+.features-card-sub {
+    color: #7D7987;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.features-card-link {
+    color: $green;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.features-card:nth-child(2) .features-card-title {
+    max-width: 250px;
+}
+
+.features-card:nth-child(3) .features-card-title {
+    max-width: 180px;
+}
+
+.features-card:nth-child(1),
+.features-card:nth-child(3) {
+    margin-top: 80px;
+}

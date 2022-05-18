@@ -1,0 +1,123 @@
+.about {
+    margin-top: 146px;
+    max-width: $max-width;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 44px;
+    color: $black;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.about-title span {
+    color: $light-green;
+}
+
+.about-desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 1.2;
+    max-width: 908px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.about-container {
+    max-width: $max-width;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 104px;
+}
+
+.about-container-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #7D7987;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.about-button {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-learn {
+    background-color: $light-green;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 9px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-learn:hover {
+    background-color: $green;
+}
+
+.about-watch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 18px;
+    color: $light-green;
+    background-color: transparent;
+    border: 1px solid $light-green;
+    border-radius: 9px;
+}
+
+.about-cards {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-cards:nth-child(1) {
+    margin-bottom: 30px;
+}
+
+.about-card {
+    padding: 28px 40px;
+    background-color: #FAFAFA;
+    border: 1px solid #E0E0E0;
+    transition: all 0.3s ease-in-out;
+    width: 200px;
+    height: 170px;
+}
+
+.about-card:hover {
+    background-color: white;
+    box-shadow: 0px 38.5185px 25.4815px rgba(56, 56, 56, 0.0607407), 0px 20px 13px rgba(56, 56, 56, 0.05), 0px 8.14815px 6.51852px rgba(56, 56, 56, 0.0392593), 0px 1.85185px 3.14815px rgba(56, 56, 56, 0.0240741);
+}
+
+.about-card-title {
+    font-weight: 500;
+    font-size: 40px;
+    color: $black;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+.about-card-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #61646B;
+}

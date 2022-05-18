@@ -1,0 +1,47 @@
+.secure {
+    margin-top: 146px;
+    max-width: $max-width;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.secure-img {
+    position: relative;
+}
+
+.secure-img-bg {
+    width: 418px;
+    height: 418px;
+    background-color: #B589AC;
+    opacity: 0.2;
+    border-top-left-radius: 209px;
+}
+
+.secure-img img {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+.secure-title {
+    font-weight: 700;
+    font-size: 44px;
+    color: $black;
+    margin-bottom: 30px;
+}
+
+.secure-title span {
+    color: $light-green;
+}
+
+.secure-desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: $light-gray;
+    line-height: 1.2;
+}
